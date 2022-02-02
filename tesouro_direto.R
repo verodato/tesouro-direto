@@ -10,7 +10,7 @@ library("RColorBrewer")
 library("rjson")
 
 # load directory settings
-source('settings.R')
+source('/home/sander/dados/tesouro_direto/settings.R')
 
 path <- paste0(data_dir, 'png/')
 pathp <- data_dir
