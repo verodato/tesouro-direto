@@ -524,16 +524,16 @@
 <div id="category" class="documentByLine">
   registrado em:
   <span>
-    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=D%C3%ADvida%20P%C3%BAblica%20Mobili%C3%A1ria" class="link-category" rel="tag">Dívida Pública Mobiliária</a><span class="separator">,</span>
-  </span>
-  <span>
-    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=T%C3%ADtulos" class="link-category" rel="tag">Títulos</a><span class="separator">,</span>
+    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=d%C3%ADvida%20interna" class="link-category" rel="tag">dívida interna</a><span class="separator">,</span>
   </span>
   <span>
     <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=VNA" class="link-category" rel="tag">VNA</a><span class="separator">,</span>
   </span>
   <span>
-    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=d%C3%ADvida%20interna" class="link-category" rel="tag">dívida interna</a>
+    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=T%C3%ADtulos" class="link-category" rel="tag">Títulos</a><span class="separator">,</span>
+  </span>
+  <span>
+    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=D%C3%ADvida%20P%C3%BAblica%20Mobili%C3%A1ria" class="link-category" rel="tag">Dívida Pública Mobiliária</a>
   </span>
 </div>
 
