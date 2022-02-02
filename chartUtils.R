@@ -7,7 +7,7 @@ library("RColorBrewer")
 library("rjson")
 
 # load directory settings
-source('settings.R')
+source('/home/sander/dados/tesouro_direto/settings.R')
 
 path <- paste0(data_dir, 'png/')
 pathp <- data_dir
@@ -212,13 +212,13 @@ myCPchart <- function( e, title, ylim, ylab, xleg, yleg, toFile ){
     }
   }
   # shadows
-  NonNAindex <- which(!is.na(lb))
-  x1 <- NonNAindex[2]
-  x2 <- NonNAindex[3]
-  rect(x1,ylim[1],x2,ylim[2],col = rgb(0.5,0.5,0.5,0.1), border=NA)
-  x1 <- NonNAindex[5]
-  x2 <- NonNAindex[6]
-  rect(x1,ylim[1],x2,ylim[2],col = rgb(0.5,0.5,0.5,0.1), border=NA)
+  #NonNAindex <- which(!is.na(lb))
+  #x1 <- NonNAindex[2]
+  #x2 <- NonNAindex[3]
+  #rect(x1,ylim[1],x2,ylim[2],col = rgb(0.5,0.5,0.5,0.1), border=NA)
+  #x1 <- NonNAindex[5]
+  #x2 <- NonNAindex[6]
+  #rect(x1,ylim[1],x2,ylim[2],col = rgb(0.5,0.5,0.5,0.1), border=NA)
   # y axis
   axis(
     side=2, las=1, cex.axis=1, col = NA, col.ticks = NA

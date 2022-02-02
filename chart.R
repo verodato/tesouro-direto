@@ -7,20 +7,21 @@ library(bizdays)
 library("RColorBrewer")
 
 # load directory settings
-source('settings.R')
+source('/home/sander/dados/tesouro_direto/settings.R')
 
 # roda tesouro_direto.R
 source(paste0(data_dir, 'tesouro_direto.R'))
 
 # save last day prices and rates
-source(paste0(data_dir, 'lastDay.R')
+source(paste0(data_dir, 'lastDay.R'))
 
 # print charts to file?
-defaul <- TRUE #FALSE
+#defaul <- FALSE
+defaul <- TRUE
 
 # start date
 #refDate <- as.Date('2019-01-01')
-refDate <- as.Date('2020-01-01')
+#refDate <- as.Date('2020-01-01')
 refDate <- as.Date('2020-01-01')
 
 #
@@ -47,7 +48,7 @@ res <- prepare( kw, ptab )
 
 # charts
 
-myCPchart( ntnbp, 'NTN-BPrinc_cp_rates', c(1,5), '%', 35, 1.7, toFile=defaul )
+myCPchart( ntnbp, 'NTN-BPrinc_cp_rates', c(0,6), '%', 35, 1.3, toFile=defaul )
 myCPchart( ntnbpp, 'NTN-BPrinc_cp_prices', c(1000,3500), 'BRL', 120, 3500, toFile=defaul )
 # remove bad behaved series from chart
 #ntnbpp[,'NTN-BPrinc150545' := NULL]
@@ -72,7 +73,7 @@ res <- prepare( kw, ptab )
 #ntnbup_up <- rbind( ntnbpr, res[,1:7] )
 
 # charts
-myCPchart( ntnb, 'NTN-B_cp_rates', c(0,5.5), '%', 49, 1.8, toFile=defaul )
+myCPchart( ntnb, 'NTN-B_cp_rates', c(0,6), '%', 49, 1.8, toFile=defaul )
 myCPchart( ntnbpr, 'NTN-B_cp_prices', c(3500,5000), 'BRL', 60, 5000, toFile=defaul )
 
 #
@@ -92,7 +93,7 @@ res <- prepare( kw, ptab )
 #ltn_price_up <- rbind( ltn_price, res )
 
 # charts
-myCPchart( ltn_rate, 'LTN_cp_rates', c(1,10), '%', 25, 3, toFile=defaul )
+myCPchart( ltn_rate, 'LTN_cp_rates', c(1,12), '%', 25, 3.5, toFile=defaul )
 myCPchart( ltn_price, 'LTN_cp_prices', c(500,1000), 'BRL', 120, 650, toFile=defaul )
 #ltn_price <- ltn_price[,list(date,LTN010125)]
 
@@ -101,7 +102,7 @@ myCPchart( ltn_price, 'LTN_cp_prices', c(500,1000), 'BRL', 120, 650, toFile=defa
 #
 
 ntnf <- colnotNA( alldur('NTN-F')[date > refDate,] )
-myCPchart( ntnf, 'NTN-F_cp_rates', c(1,10), '%', 10, 3.5, toFile=defaul )
+myCPchart( ntnf, 'NTN-F_cp_rates', c(1,12), '%', 10, 3.5, toFile=defaul )
 
 # price
 
