@@ -1,8 +1,8 @@
 #! /usr/bin/Rscript
 #
 
-tesouro_last_dir <- ""
+tesouro_last_dir <- "/home/sander/vp/static/"
 
-lastDay_dir <- ""
+lastDay_dir <- "/home/sander/vp/static/"
 
-data_dir <- ""
+data_dir <- "/home/sander/dados/tesouro_direto/"
