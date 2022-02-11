@@ -3,7 +3,7 @@
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <base href="https://www.tesourotransparente.gov.br/publicacoes/valor-nominal-de-ntn-b/28715">
-<title>Valor Nominal de NTN-B - 2022 - Janeiro — Tesouro Transparente</title>
+<title>Valor Nominal de NTN-B - 2022 - Fevereiro — Tesouro Transparente</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="mobile-web-app-capable" content="yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -43,7 +43,7 @@
   
     <div class="sociallike-network-twitter">
       <!-- Twitter -->
-<a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-text="Valor Nominal de NTN-B - 2022 - Janeiro" data-url="https://www.tesourotransparente.gov.br/publicacoes/valor-nominal-de-ntn-b/28715" data-via="">Tweet</a>
+<a class="twitter-share-button" href="https://twitter.com/intent/tweet" data-text="Valor Nominal de NTN-B - 2022 - Fevereiro" data-url="https://www.tesourotransparente.gov.br/publicacoes/valor-nominal-de-ntn-b/28715" data-via="">Tweet</a>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
     </div>
@@ -316,7 +316,7 @@
         
             
             
-            <span id="breadcrumbs-current">Valor Nominal de NTN-B - 2022 - Janeiro</span>
+            <span id="breadcrumbs-current">Valor Nominal de NTN-B - 2022 - Fevereiro</span>
          
     </span>
 
@@ -410,7 +410,7 @@
                 
                 <ul>
                   <li class="selected">
-                      <a href="https://www.tesourotransparente.gov.br/publicacoes/valor-nominal-de-ntn-b/28715" title="Janeiro">Janeiro</a>
+                      <a href="https://www.tesourotransparente.gov.br/publicacoes/valor-nominal-de-ntn-b/28715" title="Fevereiro">Fevereiro</a>
                   </li>
                 </ul>
                 
@@ -420,7 +420,7 @@
 <!-- barra-filtros //-->
 
           <section class="col-xs-12 col-sm-8 col-md-8 col-lg-8 pub-detalhamento">
-            <h3>Janeiro</h3>
+            <h3>Fevereiro</h3>
             <!-- Modal Histórico //-->
             <!-- Button trigger modal -->
             <button type="button" class="filtro-pub" data-toggle="modal" data-target="#myModal" data-direction="left">
@@ -428,7 +428,7 @@
             </button>
             <div id="div-publicado-desk">
               <span id="publicado-em" class="publicado">
-                Publicado em  <time datetime="2022/01/11 00:00:00 GMT-3">11/01/2022</time>
+                Publicado em  <time datetime="2022/02/09 00:00:00 GMT-3">09/02/2022</time>
               </span>
             </div>
             <i class="icon-pub tt-pub icon-tabela">
@@ -446,7 +446,7 @@
                 <a target="_blank" class="download" href="https://sisweb.tesouro.gov.br/apex/f?p=2501:9::::9:P9_ID_PUBLICACAO:28715">
                   <i class="tt icon-download"></i>Download
                 </a>
-                <span class="tipo-arquivo">(application/vnd.ms-excel - 48.0 KB)</span>
+                <span class="tipo-arquivo">(application/vnd.openxmlformats-officedocument.spreadsheetml.sheet - 16.9 KB)</span>
               </div>
             
             <!-- <button class="mais-itens">ACESSAR O HISTÓRICO DE PUBLICAÇÃO</button> -->
@@ -524,13 +524,13 @@
 <div id="category" class="documentByLine">
   registrado em:
   <span>
-    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=d%C3%ADvida%20interna" class="link-category" rel="tag">dívida interna</a><span class="separator">,</span>
+    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=VNA" class="link-category" rel="tag">VNA</a><span class="separator">,</span>
   </span>
   <span>
     <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=Valor%20Nominal" class="link-category" rel="tag">Valor Nominal</a><span class="separator">,</span>
   </span>
   <span>
-    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=VNA" class="link-category" rel="tag">VNA</a><span class="separator">,</span>
+    <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=d%C3%ADvida%20interna" class="link-category" rel="tag">dívida interna</a><span class="separator">,</span>
   </span>
   <span>
     <a href="https://www.tesourotransparente.gov.br/@@search?Subject%3Alist=d%C3%ADvida%20p%C3%BAblica" class="link-category" rel="tag">dívida pública</a>
