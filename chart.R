@@ -187,4 +187,3 @@ myCPchart( s, 'NTNB_NTNC_comp_rates', c(2,5), '%', 2, 5, toFile=defaul )
 print('Run bash script to upload charts png to server.')
 system(paste0("cd ",data_dir,"; ./update_png_server.sh"))
 
-
