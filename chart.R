@@ -188,3 +188,4 @@ print('Run bash script to upload charts png to server.')
 system(paste0("cd ",data_dir,"; ./update_png_server.sh"))
 
 
+
